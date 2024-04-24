@@ -1,0 +1,33 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/sonarlint/
+.idea/vcs.xml
+.idea/workspace.xml
+branch/__pycache__/
+data_factory/__pycache__/
+"pictures/locate_picture/sunshuo/\345\207\241\346\230\237\345\220\215\347\211\207-\345\267\245\345\205\267.png"
+public/__pycache__/
+testcase/__pycache__/
+testcase/baoyutong_cases/case_a_account_information/report/
+testcase/baoyutong_cases/case_e_my/report/
+testcase/baoyutong_cases/case_b_home/report/
+testcase/baoyutong_cases/case_c_products/report/
+testcase/baoyutong_cases/case_d_article/report/
+testcase/baoyutong_page_obj/__pycache__/
+testcase/cases/
+testcase/fanxing_cases/report/
+testcase/fanxing_page_obj/__pycache__/
+testcase/page_obj/
+testcase/report/
+venv/
+report/

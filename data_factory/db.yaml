@@ -1,0 +1,16 @@
+zhangyancheng:
+  sql1:
+    - res_customercore#update customer_follow_up_record set is_deleted = 1 where user_id = 1020070800012537;
+  sql2:
+    - res_order#update res_order.order set is_deleted = 1 where user_id = 1020070800012537 and emp_id = 315;
+
+hanxiao:
+  sql:
+    - res_employee#update res_employee.train_course set  train_time=NOW(), year=YEAR(NOW()),course_chapter=0,course_section=0  where  id=1327 and course_name='hx-ui课程测试-勿动';
+    - res_employee#update res_employee.train_course set is_deleted=1 where course_name="hx-ui课程测试-勿动" and year=2023;
+    - res_employee#update res_employee.train_course_chapter set is_deleted=1 where (course_id =1327 and chapter_introduce="ui子章节测试") or (course_id =1327 and chapter_name="第一章");
+    - res_employee#update res_employee.train_course_resource set is_deleted=1 where chapter_id=1659470420609142785;
+    - res_employee#update res_employee.train_emp_record set learn_status=1 where course_id=1327 and id=1661293140280651778;
+    - res_employee#update res_employee.train_course_type set is_deleted=1 where type_name="hx-预发自动化-勿动" and id =1630462574866857211;
+  sql1:
+    - res_employee#update res_employee.train_course_type set is_deleted=0 where type_name="hx-预发自动化-勿动" and id =1630462574866857211;

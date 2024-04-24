@@ -1,0 +1,23 @@
+baoyutong:
+  TEST:
+    username_password:
+      # 密码明文：Qw1234567
+      FS999904,Qw1234567
+    moblie_code:
+      18058417398,123456
+
+
+  PRE:
+    username_password:
+      # 密码明文：Qw1234567
+      FS999904,Qw1234567
+    moblie_code:
+      # 手机号登录
+      18058417398,123456
+
+  RELEASE:
+    username_password:
+      # 密码明文：Qw1234567
+      XN000266,Qw1234567
+    moblie_code:
+      18058417398,None

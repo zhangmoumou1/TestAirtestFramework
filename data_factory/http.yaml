@@ -1,0 +1,22 @@
+zhangmoumou:
+  http1:
+    token: admin
+    url: https://gw2.91duobaoyu.com/systembiz/adviser/list.do
+    way: post
+    data: {"empCode":"","empName":"","onlineType":"","businessTeam":"","industryLabel":"","officeId":"","trainerId":null,"supervisorId":null,"nominatorId":null,"currentPage":1,"pageSize":30}
+
+  http2:
+    token: baoyutong
+    url: https://gw2.91duobaoyu.com/managergateway/employeecenter/v1/outer/ignore/employeeInfo/getOccupationInfo?empId=384&
+    way: get
+    data: null
+
+
+
+
+hanxiao:
+  http:
+    token: admin
+    url: https://gw2.91duobaoyu.com/managergateway/employeecenter/trainCourseType/delete.do
+    way: POST
+    data: {"parentId":"0","id":"1655882456389726210"}
